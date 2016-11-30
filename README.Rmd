@@ -1,0 +1,21 @@
+---
+title: "README"
+output: html_document
+---
+
+This GitHub repository contains 4 R scripts and also 4 graphs produced from these scripts. 
+
+Each script downloads data from the site below 
+
+"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+
+
+The purpose of each script is to basically do the following actions
+
+        1. Download the raw data in zip format
+        2. Unzip the file and delete the zipped version
+        3. Using read.table read-in the file to a dataframe
+        4. As only data based on two dates are required, only kept fields from
+           thos3 2 dates
+        5. Produce the graph(s) and save them to a PNG type file
+
